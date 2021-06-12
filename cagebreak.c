@@ -3,8 +3,6 @@
 
 #define _DEFAULT_SOURCE
 
-#include "config.h"
-
 #include <fontconfig/fontconfig.h>
 #include <getopt.h>
 #include <pango.h>

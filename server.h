@@ -4,7 +4,6 @@
 #ifndef CG_SERVER_H
 #define CG_SERVER_H
 
-#include "config.h"
 #include "ipc_server.h"
 #include "message.h"
 

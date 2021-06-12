@@ -4,8 +4,6 @@
 #ifndef CG_VIEW_H
 #define CG_VIEW_H
 
-#include "config.h"
-
 #include <stdbool.h>
 #include <wayland-server-core.h>
 #include <wlr/types/wlr_compositor.h>

@@ -3,8 +3,6 @@
 
 #define _POSIX_C_SOURCE 200812L
 
-#include "config.h"
-
 #include <linux/input-event-codes.h>
 #include <stdint.h>
 #include <string.h>

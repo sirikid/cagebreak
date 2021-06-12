@@ -1,3 +1,6 @@
+/*-protocol.h
+/*.o
+/cagebreak
 build
 fuzz_corpus
 fuzzing-directory

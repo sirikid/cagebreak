@@ -5,8 +5,6 @@
 
 #define KEYBINDING_H
 
-#include "config.h"
-
 #include <stdbool.h>
 #include <stdint.h>
 #include <xkbcommon/xkbcommon.h>

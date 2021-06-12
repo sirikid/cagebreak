@@ -4,8 +4,6 @@
 #ifndef CG_IPC_SERVER_H
 #define CG_IPC_SERVER_H
 
-#include "config.h"
-
 #include <stdint.h>
 #include <stdlib.h>
 #include <wayland-server-core.h>

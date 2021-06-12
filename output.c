@@ -3,7 +3,6 @@
 
 #define _POSIX_C_SOURCE 200809L
 
-#include "config.h"
 #include <wlr/config.h>
 
 #include <string.h>
