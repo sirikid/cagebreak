@@ -459,7 +459,7 @@ LLVMFuzzerInitialize(int *argc, char ***argv) {
 		              "Clients may not be able to connect");
 	} else {
 		fprintf(stderr,
-		        "Cagebreak " CG_VERSION " is running on Wayland display %s\n",
+		        "Cagebreak " PACKAGE_VERSION " is running on Wayland display %s\n",
 		        socket);
 	}
 

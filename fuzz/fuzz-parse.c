@@ -1,6 +1,8 @@
 // Copyright 2020 - 2023, project-repo and the cagebreak contributors
 // SPDX-License-Identifier: MIT
 
+#include "config.h"
+
 #define _POSIX_C_SOURCE 200812L
 
 #include <stdlib.h>

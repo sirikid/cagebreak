@@ -4,6 +4,8 @@
 #ifndef CG_FUZZ_LIB_H
 #define CG_FUZZ_LIB_H
 
+#include "../config.h"
+
 #define _POSIX_C_SOURCE 200812L
 
 #include "../server.h"

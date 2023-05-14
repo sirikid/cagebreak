@@ -1,14 +1,40 @@
-// Copyright 2020 - 2023, project-repo and the cagebreak contributors
-// SPDX-License-Identifier: MIT
+/* config.h.in.  Generated from configure.ac by autoheader.  */
 
-#ifndef CG_CONFIG_H
-#define CG_CONFIG_H
+/* TODO: Really check for -fanalyze */
+#undef CG_HAS_FANALYZE
 
-#mesondefine CG_HAS_XWAYLAND
-#mesondefine CG_HAS_FANALYZE
+/* ... */
+#undef CG_HAS_XWAYLAND
 
-#mesondefine CG_VERSION
+/* Define to 1 if you have the `m' library (-lm). */
+#undef HAVE_LIBM
 
-#define MAX_NESTING_LEVEL 50
+/* ... */
+#undef MAX_NESTING_LEVEL
 
-#endif
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Version number of package */
+#undef VERSION
+
+/* ... */
+#undef WLR_USE_UNSTABLE

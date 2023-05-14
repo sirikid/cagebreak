@@ -153,7 +153,7 @@ parse_args(struct cg_server *server, int argc, char *argv[],
 			usage(stdout, argv[0]);
 			return false;
 		case 'v':
-			fprintf(stdout, "Cagebreak version " CG_VERSION "\n");
+			fprintf(stdout, "Cagebreak version " PACKAGE_VERSION "\n");
 			exit(0);
 		case 's':
 			show_info = true;
@@ -624,7 +624,7 @@ main(int argc, char *argv[]) {
 		              "Clients may not be able to connect");
 	} else {
 		fprintf(stdout,
-		        "Cagebreak " CG_VERSION " is running on Wayland display %s\n",
+		        "Cagebreak " PACKAGE_VERSION " is running on Wayland display %s\n",
 		        socket);
 	}
 
